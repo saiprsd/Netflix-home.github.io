@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: black;
+	color: #fff;
+	overflow-x: hidden;
+	height: 100%;
+}
+header{
+	background-image: url("background.jpg");
+	position: relative;
+	background-size: 100%;
+	object-fit: cover;
+	object-position: center;
+
+
+}
+.button{
+	background-color: #E50914;
+	color: #fff;
+	border:#E50914;
+	border-radius: 4px;
+}
+.header h1{
+	font-size: 65px;
+}
+
+
+main #content{
+	border-top:8px solid #303030;
+	background-color: black;
+	color: #fff;
+}
+
+
+#video video{
+	width: 100%;
+	padding: 10px;
+}
+.FAQ{
+	border-top: 8px solid #303030;
+	background-color: black;
+	color: #fff;
+}
+#FAQ-container .row{
+	margin-top:10px;
+}
+#FAQ-container .col .row .col{
+	background-color: #303030;
+	padding: 25px;
+}
+#FAQ-container .col .row .col a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+footer{
+	background-color: black;
+	border-top: 8px solid #303030;
+
+}
+footer li{
+	list-style-type: none;
+	margin-top:10px;
+
+}
+footer a{
+	text-decoration: none;
+	color: #757575;
+	font-size: 16px;
+}
+footer a:hover{
+	color:#757575;
+	text-decoration: underline;
+}
+
+
+
+
+
+
